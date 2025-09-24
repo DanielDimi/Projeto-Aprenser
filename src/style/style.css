@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    font: 400 62.5% "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.8rem;
+}
+
+.section-btn {
+    margin: 7rem 0;
+}
+
+.marcontainer {
+    padding-top: 1px;
+}
+
+.container-dark {
+    background-color: #2a2a2a;
+}
+
+.container-light {
+    background-color: #fafafa;
+}
+
+.container-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0;
+    padding: 7rem 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.header-nav{
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+
+.header-nav li a{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: .75em 1.15em;
+    border: solid 1px;
+
+}
+
+.header-nav li a:hover {
+    background-color: rgb(34, 1, 1);
+}
+
+.container-hero {
+    background-image: linear-gradient(transparent, yellow);
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+
+.hero-title {
+    margin-bottom: 4rem;
+}
+
+#cursos {
+    text-align: center;
+}
+
+.cursos-container {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.cursos-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* organiza imagem em cima e conteúdo embaixo */
+}
+
+.cursos-card img {
+    display: block;
+    width: 100%;
+}
+
+.cursos-card h3{
+    font-size: 2.4rem;
+}
+
+.cursos-card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos-card-content {
+    flex: 1;
+    padding: 1rem 1.25rem;
+    border: 1px solid #959595;
+    border-radius: 1px 1px 5px 5px;
+    border-top: transparent;
+}
+
+#escola {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#escola img {
+    display: flex;
+    
+    align-items:end;
+}
+
+#text-nossa-escola {
+    margin: 0;
+}
+
+.address-text {
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+footer , a{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
